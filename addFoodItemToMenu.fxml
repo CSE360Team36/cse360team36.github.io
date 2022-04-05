@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar layoutY="7.0" prefHeight="70.0" prefWidth="600.0">
+         <menus>
+            <Menu mnemonicParsing="false">
+               <graphic>
+                  <ImageView fitHeight="60.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Desktop/Toad1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Menu>
+            <Menu mnemonicParsing="false" text="REXUS TOADHOUSE     " />
+            <Menu mnemonicParsing="false" text="MENU     " />
+            <Menu mnemonicParsing="false" text="SEARCH     " />
+            <Menu mnemonicParsing="false" text="CART     " />
+            <Menu mnemonicParsing="false" text="SIGN UP" />
+         </menus>
+      </MenuBar>
+      <Label layoutX="24.0" layoutY="89.0" prefHeight="18.0" prefWidth="118.0" text="Create Food Item">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="24.0" layoutY="121.0" prefHeight="26.0" prefWidth="252.0" promptText="Title" />
+      <TextField layoutX="24.0" layoutY="155.0" prefHeight="26.0" prefWidth="252.0" promptText="Cooking Time" />
+      <TextField layoutX="300.0" layoutY="121.0" prefHeight="26.0" prefWidth="252.0" promptText="Price" />
+      <TextArea layoutX="24.0" layoutY="243.0" prefHeight="130.0" prefWidth="554.0" promptText="Enter Ingredients..." />
+      <TextField layoutX="300.0" layoutY="155.0" prefHeight="26.0" prefWidth="252.0" promptText="Url" />
+   </children>
+</AnchorPane>
