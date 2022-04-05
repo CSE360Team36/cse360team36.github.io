@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar prefHeight="70.0" prefWidth="600.0">
+         <menus>
+            <Menu mnemonicParsing="false">
+               <graphic>
+                  <ImageView fitHeight="60.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Desktop/Toad1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Menu>
+            <Menu mnemonicParsing="false" text="REXUS TOADHOUSE     " />
+            <Menu mnemonicParsing="false" text="MENU     " />
+            <Menu mnemonicParsing="false" text="SEARCH     " />
+            <Menu mnemonicParsing="false" text="CART     " />
+            <Menu mnemonicParsing="false" text="SIGN UP" />
+         </menus>
+      </MenuBar>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd71f" height="330.0" layoutY="70.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="29.0" layoutY="101.0" prefHeight="18.0" prefWidth="50.0" text="Search">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="99.0" layoutY="98.0" prefHeight="26.0" prefWidth="462.0" promptText="Burger" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#96a3ae" height="63.0" layoutX="29.0" layoutY="140.0" opacity="0.6" stroke="BLACK" strokeType="INSIDE" width="209.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#96a3ae" height="63.0" layoutX="352.0" layoutY="308.0" opacity="0.6" stroke="BLACK" strokeType="INSIDE" width="209.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#96a3ae" height="63.0" layoutX="352.0" layoutY="140.0" opacity="0.6" stroke="BLACK" strokeType="INSIDE" width="209.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#96a3ae" height="63.0" layoutX="29.0" layoutY="308.0" opacity="0.6" stroke="BLACK" strokeType="INSIDE" width="209.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#96a3ae" height="63.0" layoutX="29.0" layoutY="225.0" opacity="0.6" stroke="BLACK" strokeType="INSIDE" width="209.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#96a3ae" height="63.0" layoutX="352.0" layoutY="225.0" opacity="0.6" stroke="BLACK" strokeType="INSIDE" width="209.0" />
+      <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="43.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true" />
+      <Label alignment="CENTER" layoutX="110.0" layoutY="163.0" prefHeight="18.0" prefWidth="113.0" text="Label" />
+      <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="54.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true" />
+      <Label alignment="CENTER" layoutX="104.0" layoutY="248.0" prefHeight="18.0" prefWidth="113.0" text="Label" />
+      <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="48.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" />
+      <Label alignment="CENTER" layoutX="428.0" layoutY="163.0" prefHeight="18.0" prefWidth="113.0" text="Label" />
+      <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="372.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true" />
+      <Label alignment="CENTER" layoutX="104.0" layoutY="330.0" prefHeight="18.0" prefWidth="113.0" text="Label" />
+      <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="48.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true" />
+      <Label alignment="CENTER" layoutX="428.0" layoutY="248.0" prefHeight="18.0" prefWidth="113.0" text="Label" />
+      <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="372.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" />
+      <Label alignment="CENTER" layoutX="427.0" layoutY="330.0" prefHeight="18.0" prefWidth="113.0" text="Label" />
+      <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="371.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
