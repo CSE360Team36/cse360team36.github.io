@@ -49,5 +49,15 @@
       <TextField layoutX="235.0" layoutY="254.0" promptText="Password" />
       <TextField layoutX="236.0" layoutY="294.0" promptText="Confirm Password" />
       <Button layoutX="236.0" layoutY="331.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="150.0" text="Creat Account" />
+      <Pane prefHeight="404.0" prefWidth="601.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="57.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="95.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="57.0" layoutX="70.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="138.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="57.0" layoutX="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="101.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="57.0" layoutX="301.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="101.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="57.0" layoutX="406.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="57.0" layoutX="491.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="101.0" />
+         </children>
+      </Pane>
    </children>
 </AnchorPane>
