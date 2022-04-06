@@ -57,5 +57,15 @@
       <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="372.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" />
       <Label alignment="CENTER" layoutX="427.0" layoutY="330.0" prefHeight="18.0" prefWidth="113.0" text="Label" />
       <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="371.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true" />
+      <Pane prefHeight="404.0" prefWidth="601.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="57.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="95.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="57.0" layoutX="70.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="138.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="57.0" layoutX="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="101.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="57.0" layoutX="301.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="101.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="57.0" layoutX="406.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="85.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="57.0" layoutX="491.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="101.0" />
+         </children>
+      </Pane>
    </children>
 </AnchorPane>
